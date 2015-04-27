@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Preview svgtip</title>
+    <!--bower:css -->
+    <!--endbower-->
+
+    <style type="text/css" media="screen">
+im-perfect-tip{display:block;}
+    </style>
+</head>
+
+<body ng-app='imperfect-tip'>
+    <br>
+    <div style='padding:20px'>
+        <im-perfect-tip>Simple</im-perfect-tip>
+        <im-perfect-tip tip-radius='0' tip-style='padding:20px; border:20px solid blue'>Simple without radius</im-perfect-tip>
+        <im-perfect-tip tip-style='padding:10px;border:5px solid blue;background:#841130'
+        arrow-Edge='30' tip-radius='20'>
+            hello
+            <span style='font-size:30px;font-weight:bold'>big world</span>  <span>again</span>
+            <span
+            style='font-size:48px'>seriously</span>
+                <div style='color:red'>
+                    hahahaa
+                </div>
+        </im-perfect-tip>
+        <im-perfect-tip tip-style='background:#ccc; color:#fff; border:1px soid #ccc'>Solid</im-perfect-tip>
+        <im-perfect-tip tip-position='topleft'>Simple</im-perfect-tip>
+        <im-perfect-tip tip-position='topright'>Simple</im-perfect-tip>
+        <im-perfect-tip tip-position='bottomleft'>Simple</im-perfect-tip>
+        <im-perfect-tip tip-position='bottomright'>Simple</im-perfect-tip>
+
+        <im-perfect-tip tip-style='max-width:500px'>
+            <span style='font-weight:bold; font-size:20px'>I am a serious Header</span>
+            <div style='line-height:2'>I can handle long text, if you give me a max-width, Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint mollit anim id est laborum.</div>
+        </im-perfect-tip>
+
+
+    </div>
+    <!--bower:js-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <!--endbower-->
+    <script src="svgtip.js"></script>
+</body>
+
+</html>
